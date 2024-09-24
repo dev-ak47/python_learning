@@ -49,17 +49,34 @@
 # print(mean)
 
 #################################
-def find_mean(numbers):
-    total=sum(numbers)
-    count=len(numbers)
-    mean=total/count
-    return mean
+# def find_mean(numbers):
+#     total=sum(numbers)
+#     count=len(numbers)
+#     mean=total/count
+#     return mean
+#################################
 
-X=input("Enter number giving spaces: ")
-Y=X.split()
-Z=[]
-for y in Y:
-    z=float(y)
-    Z.append(z)
-    mean=find_mean(Z)
+# X=input("Enter number giving spaces: ")
+# Y=X.split()
+# Z=[]
+# for y in Y:
+#     z=float(y)
+#     Z.append(z)
+#     ## Z=[float(z) for z in X.split()]
+#     mean=find_mean(Z)
+# print(mean)
+########################
+
+# import statistics
+
+# A=[10,20,30,40,50]
+# mean=statistics.mean(A)
+# print(mean)
+
+##############################
+A=[10,20,30,40,50]
+freq=[1,2,1,4,5]
+
+Af= [ A[i]*freq[i] for i in range(len(A)) ]
+mean=sum(Af)/sum(freq)
 print(mean)
