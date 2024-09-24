@@ -11,13 +11,13 @@ print(2+10)
 x="BO CDA"
 y=105
 print(x,y)
-type(x)
-##
-##
+print(type(x))
+#
+#
 m,n,o,p,q="Python","is","great","language","a"
 print(m,n,q,o,p)
-##
-##
+#1i
+#
 x=25.5
 y=5
 z=x+y
@@ -53,6 +53,7 @@ print(len(x))
 x.remove(5)
 x.remove(7)
 print(x)
+
 ##
 ##
 x=int(input("Enter a number:"))

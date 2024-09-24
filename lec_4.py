@@ -18,22 +18,21 @@ fruits=["Apple","Banana","Cherry"]
 for fruit in fruits:
     print(fruit,end=" ")
     print(fruit," is tasty")
-
 #
 for i in range(5):
    print(i**2,end=" ")
 
-
+##
 for letter in "Python":
     print(letter,end=" ")
 print("End")
 
-
+##
 numbers=[10,20,15,89,45,37,14]
 even=[]
 for i in numbers:
     if i%2==0:
-        i.append(i)
+        even.append(i)
 print("even no. are:",even)
 
 # Squares of odd number (For loop)
