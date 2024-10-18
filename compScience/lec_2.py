@@ -1,11 +1,11 @@
 #Take as input 2 values in 2 different variables.Swap the values of the variables without using simultaneous assignment
 
-# x=2
-# y=5
-# tmp=x
-# x=y
-# y=tmp
-# print("x = ",x,"y = ",y)
+x=2
+y=5
+tmp=x
+x=y
+y=tmp
+print("x = ",x,"y = ",y)
 
 #Operator types for numerical values:
 # + : Addition
